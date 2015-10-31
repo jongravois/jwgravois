@@ -1,0 +1,28 @@
+{
+  "name": "JonGravois.com",
+  "version": "1.0.0",
+  "authors": [
+    "jgravois <jongravois@gmail.com>"
+  ],
+  "description": "Developers Site",
+  "main": "",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.jongravois.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.2",
+    "bootstrap-sass": "~3.3.5",
+    "bootstrap-select": "~1.6.4",
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}

@@ -1,0 +1,35 @@
+@import "colors";
+
+$fira-sans: "fira-sans", cursive;
+$source-code: "source-code-pro", sans-serif;
+
+@mixin linx ($link, $visit, $hover, $active) {
+    a {
+        color: $link;
+        &:visited {
+            color: $visit;
+        }
+        &:hover {
+            color: $hover;
+        }
+        &:active {
+            color: $active;
+        }
+    }
+}
+@mixin border-radius ( $value: 3px ) {
+    -webkit-border-radius: $value;
+    -moz-border-radius: $value;
+    border-radius: $value;
+    // keeps background from busting out of border
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.wf-loading {
+    visibility: hidden;
+}
+.wf-active, .wf-inactive {
+    visibility: visible;
+}
