@@ -1,9 +1,9 @@
-.wf-loading {
-  visibility: hidden; }
-
+/*.wf-loading {
+    visibility: hidden;
+}
 .wf-active, .wf-inactive {
-  visibility: visible; }
-
+    visibility: visible;
+}*/
 html, body {
   font-family: "source-code-pro", sans-serif;
   height: 100%; }
